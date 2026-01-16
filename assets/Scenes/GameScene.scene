@@ -801,6 +801,7 @@
     "instance": {
       "__id__": 32
     },
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
