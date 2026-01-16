@@ -4,9 +4,6 @@ import { Modulers } from './Tools/ModulerConfig';
 const { ccclass, property } = _decorator;
 export enum GameRootType {
     Bg = 'Bg',
-    Role = 'Role',
-    Bullet = 'Bullet',
-    
 }
 
 @ccclass('GameRoot')
