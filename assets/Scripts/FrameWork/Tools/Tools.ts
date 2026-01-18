@@ -14,7 +14,7 @@ export function createNode(parent?:Node,worldPos?:Vec3):Node{
 export function createNodeWithPrefab(prefab:Prefab | string,parent?:Node,worldPos?:Vec3):Node{
     let pre = typeof(prefab)==='string'? ResManager.Instance.getPrefab(prefab):prefab;
     const node = instantiate(pre);
-    parent && node.setParent(parent);
+    parent && (node.setParent(parent));
     worldPos && node.setWorldPosition(worldPos);
     return node;
 }
